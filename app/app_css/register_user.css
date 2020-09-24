@@ -1,0 +1,5 @@
+
+.formulario input[type=text], input[type=password] {
+    text-align: right;
+    font-size: 100px;
+}

@@ -1,0 +1,141 @@
+.mapaAlegrete {
+    max-width: 1400px;
+    height: 900px;
+}
+
+.localizacaoMapa{	
+	position: absolute;
+	top:2320px;	
+	left:800px;
+}
+
+.displayNone{
+display:none
+}
+
+
+.buttonStart {
+	margin-left:275px;
+	background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	width:200px;
+	height:70x;
+	border: 2px solid black;
+    border-radius: 4px;
+
+    cursor: pointer;
+	
+}
+
+.buttonStart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonStart span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonStart:hover span {
+  padding-right: 25px;
+}
+
+.buttonStart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+.inputCadastroTamanhoMenor{
+    width: 46.8%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:white;
+    color: black;
+	border: 2px solid black;
+    border-radius: 4px;
+
+}
+
+.inputCadastro{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:white;
+    color: black;
+	vertical-align:top;
+	border: 2px solid black;
+    border-radius: 4px;
+}
+
+.inputDescricao{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:white;
+    color: black;
+	vertical-align:top;
+	border: 2px solid black;
+    border-radius: 4px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+
+ul.checkbox li { 
+  border: 1px transparent solid; 
+  display:inline-block;
+  width:12em;
+}
+
+.coordenadaMapa{
+ margin-left: 75px;
+}
+
+
+
+
+.tituloMapa {
+  /* position is static by default */
+  margin-left: 500px;
+}
+
+
+
+

@@ -1,0 +1,79 @@
+body{
+	overflow-x: hidden;
+}
+
+.intro-header{
+	background: url('../img/bebes.jpg');
+        height: 450px;
+}
+
+
+.item img{
+	position: relative;
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 650px;
+	max-height: 364px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 1);
+	border-width: 10px;
+}
+
+.mapa-alegrete{
+	max-width: 1100px;
+    height: 700px;
+}
+
+.point-icon:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+
+.point-info{
+	position: fixed;
+	top: 0;
+	left: 0;
+	float: left;
+	min-height: 1595px;
+	height: 100%;
+	z-index: 2;
+	overflow: auto;
+	width: 0px;
+	background-color: rgba(200, 200, 200, 0.7);
+	transition: 0.5s;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.point-name{
+	text-align: center;
+        padding-top: 150px;
+}
+
+.point-pic{
+	border-radius: 20px;
+	width: 400px;
+	height: 200px;
+	margin: 50px 50px;
+}
+
+.point-description{
+	overflow-x: auto;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+	height: auto;
+	margin: 0px 10px;
+	margin-bottom: 30px;
+}
+
+.close-button{
+	display: block;	
+	margin-left: auto;
+	margin-right: auto;
+}
